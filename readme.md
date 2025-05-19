@@ -1,24 +1,24 @@
 ## 🔍 Overview
 
-ShadowScan est un outil puissant de scanning web qui combine deux modules essentiels pour la sécurité :
+ShadowScan is a powerful web scanning tool that combines two essential security modules:
 
-1. **EnvHunter** - Chasse aux fichiers .env et secrets exposés
-2. **XSSAutoFuzz** - Détection avancée de vulnérabilités XSS
+1. **EnvHunter** - Hunts for exposed .env files and secrets
+2. **XSSAutoFuzz** - Advanced XSS vulnerability detection
 
-Créé par **Lenny**, cet outil est conçu pour les pentesters, chercheurs en sécurité et développeurs soucieux de la sécurité de leurs applications web.
+Created by **Lenny**, this tool is designed for pentesters, security researchers, and developers concerned about the security of their web applications.
 
 ## ✨ Features
 
 ### 🕵️ EnvHunter Module
-- Scan multi-chemins pour les fichiers .env
-- Détection de 15+ types de secrets (API keys, credentials, etc.)
-- Patterns regex avancés pour l'extraction
-- Support des variantes de fichiers (.env.local, .env.prod, etc.)
+- Multi-path scanning for .env files
+- Detection of 15+ secret types (API keys, credentials, etc.)
+- Advanced regex patterns for extraction
+- Support for file variants (.env.local, .env.prod, etc.)
 
-### 🎯 XSSAutoFuzz Module
-- 20+ payloads XSS prédéfinis
-- Fuzzing multi-paramètres (GET/POST)
-- Détection de réflexion intelligente
-- Multithreading pour performances accrues
-- Analyse des formulaires HTML
-- Crawling basique automatique
+### 🎯 XSSAutoFuzz ​​Module
+- 20+ predefined XSS payloads
+- Multi-parameter fuzzing (GET/POST)
+- Intelligent reflection detection
+- Multithreading for increased performance
+- HTML form parsing
+- Automatic basic crawling
