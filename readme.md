@@ -22,3 +22,15 @@ Created by **Lenny**, this tool is designed for pentesters, security researchers
 - Multithreading for increased performance
 - HTML form parsing
 - Automatic basic crawling
+
+### 🛠️ Options
+
+| Option | Description                             |
+| ------ | --------------------------------------- |
+| `-a`   | Run all scans (EnvHunter + XSSAutoFuzz) |
+| `-e`   | Run only the EnvHunter module           |
+| `-x`   | Run only the XSSAutoFuzz module         |
+| `-t`   | Number of threads to use (default: 20)  |
+| `-o`   | Save the results to a JSON file         |
+| `-v`   | Enable verbose mode                     |
+
